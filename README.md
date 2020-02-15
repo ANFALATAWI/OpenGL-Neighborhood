@@ -15,7 +15,7 @@ public static void clinic(GL gl, GLUT glut){...}
 public static void park(GL gl, GLUT glut){...}
 ```
 
-This is how objects in display() [main function] looks like:
+This is how objects in display() [main function] look like:
 ```java
 // Market 
 gl.glPushMatrix();
