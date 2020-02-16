@@ -58,9 +58,9 @@ gl.glPopMatrix();
 To run a project, simply open it in NetBeans (File > Open project), then choose Run > Run project (shortcut F6).
 
 ##  Contributers
--  [Anfal Alawati](https://github.com/ANFALATAWI)
+- [Anfal Alatawi](https://github.com/ANFALATAWI)
 - [Razan Sonbul](https://github.com/RazanSon)
 - [Nouf Alkedewi](https://github.com/NoufNassr)
 - [Najwa Noorwali](https://github.com/najwaWali)
 - [Rahaf Almotery](https://github.com/RahafTalal)
-- Bayader Alsahafi 
+- [Bayader Alsahafi](https://github.com/BayaderAlsahafi)
