@@ -60,7 +60,7 @@ To run a project, simply open it in NetBeans (File > Open project), then choose 
 ##  Contributers
 -  [Anfal Alawati](https://github.com/ANFALATAWI)
 - [Razan Sonbul](https://github.com/RazanSon)
-- Nouf Alkedewi
+- [Nouf Alkedewi](https://github.com/NoufNassr)
 - [Najwa Noorwali](https://github.com/najwaWali)
-- Rahaf Almotery
+- [Rahaf Almotery](https://github.com/RahafTalal)
 - Bayader Alsahafi 
