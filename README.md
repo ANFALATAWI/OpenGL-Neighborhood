@@ -27,7 +27,7 @@ gl.glPopMatrix();
 ### Objects 
 | Object | Description |
 |--|--|
-|Houses| Solid cubes were used for the building, as far for the windows and doors the value of z is scaled to look like 2D quads. ![Modern-House](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/ModernHouse.gif) |
+|Houses| Solid cubes were used for the building, as far for the windows and doors the value of z is scaled to look like 2D quads. ![Modern-House](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/Modern_House.gif) |
 |Market|Solid cubes were used and different 2d planes to construct the market.![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/Market.gif)|
 |Masjed|There are three main parts in the masjed, quba, the main building and the minaret.The main building was constructed by scaling cubes. The quba was built using a sphere and a cylinder. last part was the minaret the most complex part which used solid torus, cubes, sphere, solid and wired cylinders. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/NewMajiid.gif)|
 |Cars|Quads are used to model the car, Triangles to model the side windows and solid torus with line strips to model the tires. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/car.gif)|
@@ -35,13 +35,13 @@ gl.glPopMatrix();
 |Parks|2D quad for the grass of the park was used. For the trees, a scaled cube (along y) for the trunk and a scaled dodecahedron for the top.|
 |Satellites|Scaled solid was used cylinder to represent the “cycle”, also solid cube to represent column in the back and the one inside the cycle. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/Satil.gif)|
 |Water tanks|White cylinders only|
-|Trash bins|For the old trash bin, solid cube was used and resized with glScalef(1,1,0.05f) and solid torus for the wheels. While for the new bin, it was modeled using Quads and texture. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/NewBin.gif) ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/Oldbin.gif)|
+|Trash bins|For the old trash bin, solid cube was used and resized with glScalef(1,1,0.05f) and solid torus for the wheels. While for the new bin, it was modeled using Quads and texture. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/NewBin.gif) ![](hhttps://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/Old%20Bin.gif)|
 |Shopfronts|Textures on quads were used to simulate graphic shopfronts.|
 |Drawings on walls|eTextures on quads were used to simulate abstract drawings.|
 |Wind turbines|A scaled cylinder was used for the base and triangles for the turning top.|
 |Solar panels|The solar consists of three parts, A plate, pipe and base. The pipe and base both was built using Solid Cylinder. The plate on the other hand consisted of the main plate that was built by scaling and rotating Cubes, and the grid witch used wired cylinder. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/SolarPanel.gif)|
 |Court|Different 2D planes & cylinders were used to model the court and baskets.|
-|Court|combination of scaled solid cylinder and solid cube to represent the playground and scaled solid cube for the basket .|
+|Studium|combination of scaled solid cylinder and solid cube to represent the playground and scaled solid cube for the basket . ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/Studium.gif)|
 
 ##  Requirements
 - [NetBeans 8.1](https://netbeans.org/downloads/8.1/)
