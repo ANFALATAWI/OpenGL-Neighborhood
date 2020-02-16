@@ -27,7 +27,8 @@ gl.glPopMatrix();
 ### Objects 
 | Object | Description |
 |--|--|
-|Houses| Solid cubes were used for the building, as far for the windows and doors the value of z is scaled to look like 2D quads. ![Modern-House](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/Modern%20House.gif) |
+|Houses| Solid cubes were used for the building, as far for the windows and doors the value of z is scaled to look like 2D quads. 
+![Modern-House](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/Modern%20House.gif) |
 |Market|Solid cubes were used and different 2d planes to construct the market.|
 |Masjed|There are three main parts in the masjed, quba, the main building and the minaret.The main building was constructed by scaling cubes. The quba was built using a sphere and a cylinder. last part was the minaret the most complex part which used solid torus, cubes, sphere, solid and wired cylinders.|
 |Cars|Quads are used to model the car, Triangles to model the side windows and solid torus with line strips to model the tires.|
