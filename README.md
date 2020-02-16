@@ -33,9 +33,9 @@ gl.glPopMatrix();
 |Cars|Quads are used to model the car, Triangles to model the side windows and solid torus with line strips to model the tires. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/car.gif)|
 |Clinic|Solid cubes were colored and scaled. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/aClinic.gif)|
 |Parks|2D quad for the grass of the park was used. For the trees, a scaled cube (along y) for the trunk and a scaled dodecahedron for the top.|
-|Satellites|Scaled solid was used cylinder to represent the “cycle”, also solid cube to represent column in the back and the one inside the cycle. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/Satil.gif)|
+|Satellites|Scaled solid was used cylinder to represent the “cycle”, also solid cube to represent column in the back and the one inside the cycle. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/satalite.gif)|
 |Water tanks|White cylinders only|
-|Trash bins|For the old trash bin, solid cube was used and resized with glScalef(1,1,0.05f) and solid torus for the wheels. While for the new bin, it was modeled using Quads and texture. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/NewBin.gif) ![](hhttps://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/Old%20Bin.gif)|
+|Trash bins|For the old trash bin, solid cube was used and resized with glScalef(1,1,0.05f) and solid torus for the wheels. While for the new bin, it was modeled using Quads and texture. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/NewBin.gif) ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/Old%20Bin.gif)|
 |Shopfronts|Textures on quads were used to simulate graphic shopfronts.|
 |Drawings on walls|eTextures on quads were used to simulate abstract drawings.|
 |Wind turbines|A scaled cylinder was used for the base and triangles for the turning top.|
