@@ -6,7 +6,7 @@ It uses most of the 3D and 2D primitive shapes of OpenGL like cubes to construct
 OpenGL is a cross-language, cross-platform application programming interface (API) that is used for rendering 2D and 3D vector graphics. This project uses  **Java OpenGL**, which is a wrapper library allows OpenGL to be used in the Java programming language.
 
 #### Project Demo
-...
+A link to a video demo will be added soon!
 ##  Implementation 
 The project follows an approach of encapsulating. Therefore, every object is written in a separate function for drawing it in order to simplify the integration of objects in every scene, control its position, and make sure it doesn’t overlap, specially that we deal with small little details that need to be allocated to precise places. The encapsulated functions looks like this:
 ```java
