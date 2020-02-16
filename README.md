@@ -31,7 +31,7 @@ gl.glPopMatrix();
 |Market|Solid cubes were used and different 2d planes to construct the market.![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/Market.gif)|
 |Masjed|There are three main parts in the masjed, quba, the main building and the minaret.The main building was constructed by scaling cubes. The quba was built using a sphere and a cylinder. last part was the minaret the most complex part which used solid torus, cubes, sphere, solid and wired cylinders. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/NewMajiid.gif)|
 |Cars|Quads are used to model the car, Triangles to model the side windows and solid torus with line strips to model the tires. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/car.gif)|
-|Clinic|Solid cubes were colored and scaled. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/aClinic.gif)|
+|Clinic|Solid cubes were colored and scaled. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/Clinic.gif)|
 |Parks|2D quad for the grass of the park was used. For the trees, a scaled cube (along y) for the trunk and a scaled dodecahedron for the top.|
 |Satellites|Scaled solid was used cylinder to represent the “cycle”, also solid cube to represent column in the back and the one inside the cycle. ![](https://github.com/ANFALATAWI/OpenGL-Neighborhood/blob/master/Repo-materials/Gifs/satalite.gif)|
 |Water tanks|White cylinders only|
