@@ -20,7 +20,7 @@ The project is well encapsulated, every logical object is written in a separate 
 ```java
 // The market is one logical building, therfore this function draws it
 public static void market(GL gl, GLUT glut){...}
-// So is the cilnin
+// So is the cilnic
 public static void clinic(GL gl, GLUT glut){...}
 // The park is one logical *area*, therefore it is also drawn in one peice of code
 public static void park(GL gl, GLUT glut){...}
@@ -63,12 +63,12 @@ gl.glPopMatrix();
 
 
 ### Set up OpenGL Library
-1. Launch NetBeans
-2. Go to Tool > Plugins
-3. Go to the Downloaded tab, then click on Add Plugins
-4. Select all the plugins you downloaded from OpenGL site, then click Open
-5. Check all the plugins except the **GLSL editor** module (It doesn't work in NetBeans 7.1 and above, so you will get errors when you install it)
-6. Click on Install button
+1. Launch NetBeans.
+2. Go to **Tools** > **Plugins**.
+3. Go to the Downloads tab, then click on **Add Plugins**.
+4. Select all the plugins you downloaded from [OpenGL](http://plugins.netbeans.org/plugin/3260/netbeans-opengl-pack), then click **Open**.
+5. Check all the plugins except the **GLSL editor** module (It does not work in NetBeans 7.1 and above, it causes errors if you try to install it).
+6. Click the **Install** button.
 
 ### Run
 To run a project, simply open it in NetBeans (File > Open project), then choose Run > Run project (shortcut F6).
