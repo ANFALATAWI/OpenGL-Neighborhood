@@ -1,5 +1,6 @@
 #  OpenGL-Neighborhood
 This projects uses Java's OpenGL Library to render low level graphics in java programs.
+
 It illustrates two scenes, one of an old residential area in Saudi Arabia, and another futuristic one.
 The scenes are built using 3D and 2D primitive shapes of OpenGL. For example, **cubes** were used to construct buildings of different designs, clouds, benches, solar panels and bins. **Cylinders** were used to build satellites and water tanks. And textures were used to simulate shopfronts and the drawings on walls. And other primitive shapes, like a **sphere** for the masjid dome, **quads** for cars and **icosahedrons** for plants and rocks.
 
