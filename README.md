@@ -1,21 +1,30 @@
 #  OpenGL-Neighborhood
-This project illustrates an example of an old residential area and an enhanced residential area of Saudi Arabia using the OpenGL Java library. 
-It uses most of the 3D and 2D primitive shapes of OpenGL like cubes to construct buildings of different designs, clouds, benches, solar panels and bins, cylinders to build satellites and water tanks, textures to simulate shopfronts and the drawings on walls, a sphere for the masjid dome, quads for cars and icosahedrons for plants and rocks, more detailed following.
+This projects uses Java's OpenGL Library to render low level graphics in java programs.
+It illustrates two scenes, one of an old residential area in Saudi Arabia, and another futuristic one.
+The scenes are built using 3D and 2D primitive shapes of OpenGL. For example, **cubes** were used to construct buildings of different designs, clouds, benches, solar panels and bins. **Cylinders** were used to build satellites and water tanks. And textures were used to simulate shopfronts and the drawings on walls. And other primitive shapes, like a **sphere** for the masjid dome, **quads** for cars and **icosahedrons** for plants and rocks.
 
 #### Open Graphics Library (OpenGl) 
-OpenGL is a cross-language, cross-platform application programming interface (API) that is used for rendering 2D and 3D vector graphics. This project uses  **Java OpenGL**, which is a wrapper library allows OpenGL to be used in the Java programming language.
+OpenGL is a cross-language, cross-platform application programming interface (API) that's used for rendering 2D and 3D vector graphics. This project uses  **Java OpenGL**, which is a wrapper library that allows OpenGL to be used by the Java programming language.
 
 #### Project Demo
-A link to a video demo will be added soon!
+*A link to a video demo will be added soon!*
+
 ##  Implementation 
-The project follows an approach of encapsulating. Therefore, every object is written in a separate function for drawing it in order to simplify the integration of objects in every scene, control its position, and make sure it doesn’t overlap, specially that we deal with small little details that need to be allocated to precise places. The encapsulated functions looks like this:
+The project is well encapsulated, every logical object is written in a separate function that draws it in order to simplify the integration of objects in a scene. This is especially important when dealing with small details that need to be rendered in precise places. The encapsulated functions follow this style:
+
 ```java
+// The market is one logical building, therfore this function draws it
 public static void market(GL gl, GLUT glut){...}
+// So is the cilnin
 public static void clinic(GL gl, GLUT glut){...}
+// The park is one logical *area*, therefore it is also drawn in one peice of code
 public static void park(GL gl, GLUT glut){...}
+// The car is one logical object, and also one that we wanted to copy many times,
+// therfore its header takes in different colors (RGB).
+public static void drawCar(GL gl, GLUT glut, float r, float g, float b){...}
 ```
 
-This is how objects in display() [main function] look like:
+This is how objects in the display() [main function] look like:
 ```java
 // Market 
 gl.glPushMatrix();
@@ -46,6 +55,8 @@ gl.glPopMatrix();
 ##  Requirements
 - [NetBeans 8.1](https://netbeans.org/downloads/8.1/)
 - [OpenGL 6.7](http://plugins.netbeans.org/plugin/3260/netbeans-opengl-pack) 
+
+
 ### Set up OpenGL Library
 1. Launch NetBeans
 2. Go to Tool > Plugins
